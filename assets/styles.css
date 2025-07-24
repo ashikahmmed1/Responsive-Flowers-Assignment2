@@ -7,11 +7,14 @@
     display: flex;
 }
 /* max-width */
-.nav-container, .hero-section{
+.nav-container, 
+.hero-section, 
+.card-itam, .max-width{
     max-width: 1140px;
-    margin: 30px auto;
+    margin: 49px auto;
 }    
-.nav-container, .hero-section{
+.nav-container, 
+.hero-section{
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -49,7 +52,12 @@
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.5);
 }
+/* our-plants-faction */
+.our-plants-faction div{
+    text-align: center;
+    align-items: center;
 
+}
 
 .ours{
     color: rgba(233, 90, 8, 1);
@@ -61,7 +69,71 @@
     font-weight: 700;
     font-size: 3rem;
 }
-
+.color-our{
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* card-container */
+.card-container{
+    max-width : 270px;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 20px;
+}
+.margin-bottom{
+    margin-bottom: 30px;
+}
+/* card itam */
+.meidam-font{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgba(17, 17, 17, 1);
+}
+.usd{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgba(17, 17, 17, 1);
+}
+.add-to-card{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    gap: 30px;
+    background-color: #E95A08;
+    padding: 1.3rem 3rem;
+    
+}
+/* flower-and-plants lover */
+.flower-lover{
+    justify-content: space-between;
+}
+.flower-and{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+}
+/* maxx-width */
+.maxx-width{
+    max-width: 1440px;
+    max-height: 138px;
+    margin: 120px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+/* img off */
+.off-card{
+    gap: ;
+}
+.img-tow{
+    border-radius: 1rem;
+}
+.img-one{
+    border-radius: 1.3rem;
+}
 @media screen and (max-width: 576px) {
     
     
